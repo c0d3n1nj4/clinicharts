@@ -6,5 +6,10 @@
 /themes/Adminto1.6/Horizontal.zip
 /vendor/*
 .env
+/.vscode/*
 .editorconfig
 debug.log
+php.ini
+php-errors.log
+themes.zip
+vendor.zip
