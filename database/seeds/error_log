@@ -1,0 +1,1 @@
+[12-Jan-2018 22:49:56 UTC] PHP Fatal error:  Class 'Illuminate\Database\Seeder' not found in /home/k2fcomau/public_html/dashboard/database/seeds/DatabaseSeeder.php on line 6

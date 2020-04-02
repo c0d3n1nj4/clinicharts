@@ -1,0 +1,10 @@
+/database/migrations-OLD/*
+/themes/Adminto1.6/Dark/*
+/themes/Adminto1.6/Horizontal-RTL/*
+/themes/Adminto1.6/Light/*
+/themes/Adminto1.6/Vertical-RTL/*
+/themes/Adminto1.6/Horizontal.zip
+/vendor/*
+.env
+.editorconfig
+debug.log

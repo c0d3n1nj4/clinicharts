@@ -1,0 +1,123 @@
+/* Jace custom styles */
+
+/* Fonts */
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("/public/fonts/glyphicons-halflings-regular.eot");
+  src: url("/public/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/public/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/public/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/public/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/public/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+@font-face {
+  font-family: "nexa_boldregular";
+  src: url("/public/fonts/Nexa_Free_Bold-webfont.eot");
+  src: url("/public/fonts/Nexa_Free_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/Nexa_Free_Bold-webfont.woff2") format("woff2"), url("/public/fonts/Nexa_Free_Bold-webfont.woff") format("woff"), url("/public/fonts/Nexa_Free_Bold-webfont.ttf") format("truetype"), url("/public/fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nexa_lightregular";
+  src: url("/public/fonts/Nexa_Free_Light-webfont.eot");
+  src: url("/public/fonts/Nexa_Free_Light-webfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/Nexa_Free_Light-webfont.woff2") format("woff2"), url("/public/fonts/Nexa_Free_Light-webfont.woff") format("woff"), url("/public/fonts/Nexa_Free_Light-webfont.ttf") format("truetype"), url("/public/fonts/Nexa_Free_Light-webfont.svg#nexa_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General */
+h1, h2, h3, h4, h5, #navigation a { font-family:"nexa_boldregular" !important }
+#navigation a { font-size:1.1em; }
+.jc-m-l-5 { margin-left:5px !important }
+.jc-m-l-10 { margin-left:10px !important }
+.jc-m-l-20 { margin-left:20px !important }
+.jc-m-r-5 { margin-right:5px !important }
+.jc-m-r-10 { margin-right:10px !important }
+.jc-m-r-20 { margin-right:20px !important }
+.jc-m-b-10 { margin-bottom:20px !important }
+.white { color:#fff !important }
+
+#topnav .navigation-menu > li > a:hover, 
+#topnav .navigation-menu > li > a:focus,
+#topnav .navigation-menu li.active > a,
+#topnav .navigation-menu > li .submenu li a:hover {
+  color: #fff !important;
+  background-color: #71b6f9 !important;
+}
+#topnav .navigation-menu li > a:hover i,
+#topnav .navigation-menu li.active > a i {
+  color: #fff !important;
+}
+#topnav .navigation-menu > li:first-of-type a { padding-left:25px }
+#topnav .navigation-menu > li .submenu { padding:0 }
+.navigation-menu .divider { 
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.wrapper > .container { margin-top:25px; }
+.jc-page-title { margin-left:10px; }
+.jc-custom-modal-title { margin-left:10px; margin-right:10px; margin-bottom:10px; }
+
+.modal .modal-dialog .modal-content .modal-body { padding: 20px 10px; }
+
+.jc-modal-h4 { position:absolute; top:0; left:0; width:100%; }
+.jc-modal-close { margin-top:-11px !important; z-index:40; position:relative; color:#fff; }
+
+/* .nav-tabs.nav-justified>.active>a { background-color:#9E9E9E !important; color:#fff !important; } */
+.nav-tabs.nav-justified { background-color: rgba(160, 204, 255, 0.3); }
+.wrapper { padding-bottom: 72px; } /* Body padding bottom */
+
+/* Patients */
+#patient-picture {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ddd;
+}
+#add-patient-birth-history-modal .modal-dialog,
+#update-patient-birth-history-modal .modal-dialog {
+  max-width:1045px !important;
+  width:100% !important;
+}
+
+/* Blood Types */
+#add-blood-type-modal h4, #update-blood-type-modal h4 { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}   
+#add-blood-type-modal .modal-header .close, #update-blood-type-modal .modal-header .close {
+  margin-top: -11px;
+  z-index: 40;
+  position: relative;
+  color: #fff;
+}
+
+/* Allergies */
+#add-allergy-modal h4, #update-allergy-modal h4 { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}   
+#add-allergy-modal .modal-header .close, #update-allergy-modal .modal-header .close {
+  margin-top: -11px;
+  z-index: 40;
+  position: relative;
+  color: #fff;
+}
+
+/* Login background image */
+.account-pages {
+  background: url("/public/avatars/login-bg.jpg") center center !important; 
+  background-size: cover !important;
+}
+
+/* Appointments */
+.fc-unthemed .fc-today { background:#fcf8e3 !important; border-color:#ddd !important; }
+
+/* Responsive */
+@media only screen and (max-width: 767px) { 
+  div.dataTables_filter input {
+    width: 72%;
+  }
+  #logo-text { display:none; }
+}
